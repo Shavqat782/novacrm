@@ -39,10 +39,7 @@ export default defineConfig(({ mode }) => {
           },
         },
       ],
-      define: {
-        'import.meta.env.VITE_SUPABASE_URL': JSON.stringify(env.VITE_SUPABASE_URL),
-        'import.meta.env.VITE_SUPABASE_ANON_KEY': JSON.stringify(env.VITE_SUPABASE_ANON_KEY),
-        'import.meta.env.VITE_GEMINI_API_KEY': JSON.stringify(env.VITE_GEMINI_API_KEY),
-      },
+      // ВАЖНО: блок define убран — Vite нативно подхватывает VITE_* переменные
+      // из process.env (работает и локально, и на Vercel).
     };
 });

@@ -1,6 +1,10 @@
 # NovaCRM - AI-Powered Business OS
 
+> 🔴 **Live demo:** [novacrm-phi.vercel.app](https://novacrm-phi.vercel.app)
+
 Профессиональная CRM система с искусственным интеллектом для управления продажами, контактами и аналитикой.
+
+**Возможности:** Kanban-воронка сделок с товарами и автосписанием со склада • Приглашение команды по ссылке/WhatsApp (работает между устройствами) • Gemini AI • Telegram-чат с клиентами • Финансы • Realtime • Тёмная тема
 
 ![NovaCRM](https://img.shields.io/badge/React-19-blue) ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue) ![Supabase](https://img.shields.io/badge/Database-Supabase-green) ![License](https://img.shields.io/badge/License-Free-green)
 
